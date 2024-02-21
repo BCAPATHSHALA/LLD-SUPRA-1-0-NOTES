@@ -1,0 +1,25 @@
+Write about methods in java according to these instructions
+
+What is method/function?
+Function declaration
+Function Call
+Function Call stack
+Return keyword
+Method perimeters
+
+Practice
+1. Write a Function to print your name "N" times
+2. Write a function to print the sum from 1 to N
+3. WAF to return the average of 2 numbers
+4. WAF to return the minimum of 2 numbers
+5. WAF to return the maximum of 2 numbers
+6. WAF to return the absolute value of a number
+7. WAF to return the exponent of a number
+8. WAF to return a random value between 1 to N
+
+Practice with function and array
+1. WAF to print the array
+2. WAF to return the sum of all elements in the array
+3. WAF to double the values present inside the array
+
+But remember all practice and theory are in with main method which is static 
