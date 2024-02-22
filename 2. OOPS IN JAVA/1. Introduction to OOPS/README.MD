@@ -58,7 +58,7 @@ To address these complexities, a structured approach like **Object-Oriented Prog
 <p align="center">
   <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708581001/OWN%20IMAGES/1688638563342-1-02_29_vnla0o.png" alt="Attributes and Behaviour" width="500px" >
 </p>
-
+ 
 # So…
 
 1. Object Oriented Programming (OOP) is a programming paradigm focused on implementing real-world objects.
