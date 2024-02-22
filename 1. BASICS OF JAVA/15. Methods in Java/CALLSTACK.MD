@@ -1,6 +1,8 @@
 # Function Call Stack
 
-![Call Stack](https://res.cloudinary.com/dq3pru6ji/image/upload/v1708546228/OWN%20IMAGES/1_rJ2sh-q1deQGGGVG5gYyIQ_ukpz00.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708546228/OWN%20IMAGES/1_rJ2sh-q1deQGGGVG5gYyIQ_ukpz00.png" alt="Call Stack" >
+</p>
 
 A simple Java program that demonstrates the concept of the call stack.
 

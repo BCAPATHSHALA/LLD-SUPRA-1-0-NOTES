@@ -4,7 +4,9 @@ In Java, type conversion refers to the process of converting a value from one da
 
 There are two types of type conversion in Java: implicit `(automatic)` conversion and explicit `(manual)` conversion.
 
-![java type conversion](https://res.cloudinary.com/dq3pru6ji/image/upload/v1708277397/OWN%20IMAGES/download_wyn0zo.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708277397/OWN%20IMAGES/download_wyn0zo.png" alt="java type conversion" >
+</p>
 
 ## Implicit Type Conversion (Widening):
 

@@ -30,7 +30,9 @@ int age;         // declaration
 age = 20;        // initialization
 ```
 
-![Java Variables](https://res.cloudinary.com/dq3pru6ji/image/upload/v1708273723/OWN%20IMAGES/Variables-Syntax-in-Java_llbko7.jpg)
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708273723/OWN%20IMAGES/Variables-Syntax-in-Java_llbko7.jpg" alt="Java Variables" >
+</p>
 
 ## Naming Rules:
 

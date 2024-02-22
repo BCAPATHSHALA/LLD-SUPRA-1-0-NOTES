@@ -17,7 +17,9 @@ These are basic data types that represent single values. Java has eight primitiv
 - char: `16-bit` Unicode character. `Example: char grade = 'A';`
 - boolean: `1-bit/8-bit` Represents true or false values. `Example: boolean isJavaFun = true;`
 
-![Primitive Data Types](https://res.cloudinary.com/dq3pru6ji/image/upload/v1708274902/OWN%20IMAGES/Primitive_isohcf.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708274902/OWN%20IMAGES/Primitive_isohcf.png" alt="Primitive Data Types" >
+</p>
 
 ## Non-Primitive Data Types:
 

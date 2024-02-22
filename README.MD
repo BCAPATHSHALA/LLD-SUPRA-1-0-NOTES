@@ -31,3 +31,10 @@ Please support on `Youtube Channel` [Console Busters](https://www.youtube.com/@C
 13. `Loop statements`
 14. `Arrays in Java`
 15. `Methods in Java`
+
+## Object Oriented Programming in Java
+
+1. `Introduction to OOPS`
+2. How to create class and object in Java
+3. Encapsulation in Java
+4. Inheritance in Java

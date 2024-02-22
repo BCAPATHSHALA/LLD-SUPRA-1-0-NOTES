@@ -1,6 +1,9 @@
 # Java program execution process
 
-![Java program execution](https://res.cloudinary.com/dq3pru6ji/image/upload/v1708275269/OWN%20IMAGES/exexution_process_of_java_towaen.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708275269/OWN%20IMAGES/exexution_process_of_java_towaen.png" alt="Java program execution" >
+</p>
+
 
 Here's a `step-by-step` breakdown of the Java program execution process in simple terms:
 

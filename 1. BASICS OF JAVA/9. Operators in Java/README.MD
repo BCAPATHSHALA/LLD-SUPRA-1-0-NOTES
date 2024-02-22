@@ -1,6 +1,8 @@
 # Operators in Java
 
-![Java Operators](https://res.cloudinary.com/dq3pru6ji/image/upload/v1708278219/OWN%20IMAGES/operators_in_java_eru6t5.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708278219/OWN%20IMAGES/operators_in_java_eru6t5.png" alt="Java Operators" >
+</p>
 
 ```Java
 // Arithmetic operators

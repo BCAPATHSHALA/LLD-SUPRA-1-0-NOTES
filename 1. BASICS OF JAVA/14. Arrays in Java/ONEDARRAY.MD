@@ -1,6 +1,8 @@
 # One-Dimensional Array in Java
 
-![1D](https://res.cloudinary.com/dq3pru6ji/image/upload/v1708542422/OWN%20IMAGES/1D-Array-C_owm3ji.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708542422/OWN%20IMAGES/1D-Array-C_owm3ji.png" alt="One-Dimensional Array in Java" >
+</p>
 
 ## 1. What is a One-Dimensional Array?
 

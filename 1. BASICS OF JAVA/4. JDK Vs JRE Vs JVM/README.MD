@@ -1,4 +1,6 @@
-![JDK JRE JVM](https://res.cloudinary.com/dq3pru6ji/image/upload/v1708272320/OWN%20IMAGES/JDK_VS_JRE_VS_JVM_b5ry91.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708272320/OWN%20IMAGES/JDK_VS_JRE_VS_JVM_b5ry91.png" alt="JDK JRE JVM" >
+</p>
 
 ## JDK (Java Development Kit):
 

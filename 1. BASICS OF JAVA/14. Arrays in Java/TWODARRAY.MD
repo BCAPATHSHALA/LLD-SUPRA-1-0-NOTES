@@ -1,6 +1,8 @@
 # Two-Dimensional Array in Java
 
-![2D](https://res.cloudinary.com/dq3pru6ji/image/upload/v1708542421/OWN%20IMAGES/2DArray_ubjjx0.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708542421/OWN%20IMAGES/2DArray_ubjjx0.png" alt="Two-Dimensional Array in Java" >
+</p>
 
 ## 1. What is a Two-Dimensional Array?
 

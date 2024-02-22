@@ -27,7 +27,9 @@ printNameNTimes("John", 3);
 
 ## Function Call Stack
 
-![Call Stack](https://res.cloudinary.com/dq3pru6ji/image/upload/v1708546228/OWN%20IMAGES/1_rJ2sh-q1deQGGGVG5gYyIQ_ukpz00.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708546228/OWN%20IMAGES/1_rJ2sh-q1deQGGGVG5gYyIQ_ukpz00.png" alt="Call Stack" >
+</p>
 
 When a method is called, it is added to the call stack. The call stack keeps track of the order in which methods are called and ensures proper execution.
 
