@@ -31,6 +31,7 @@ Please support on `Youtube Channel` [Console Busters](https://www.youtube.com/@C
 13. `Loop statements`
 14. `Arrays in Java`
 15. `Methods in Java`
+16. `Strings in Java`
 
 ## Object Oriented Programming in Java
 
