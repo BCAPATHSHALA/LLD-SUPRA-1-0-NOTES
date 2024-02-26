@@ -1,6 +1,6 @@
 ![CONSOLEBUSTERS](https://res.cloudinary.com/dkbtmzdtt/image/upload/v1708107396/MYYYYYY/LLD_SUPRA_1.0_dowsdm.png)
 
-## **Course mentors are Love Babbar & Lakshay Kumar Bhaiya**
+# Course mentors are Love Babbar & Lakshay Kumar Bhaiya
 
 Low Level Design `LLD SUPRA 1.0` course represented by [The code help](https://www.thecodehelp.in)
 
@@ -14,7 +14,7 @@ You can also join our `Discord Channel` [Console Busters](https://discord.gg/naQ
 
 Please support on `Youtube Channel` [Console Busters](https://www.youtube.com/@ConsoleBusters) via subscribe to watch our doubts and much more.
 
-## Basics of Java
+# Basics of Java
 
 1. `Introduction of Java`
 2. `Java Vs C++`
@@ -33,9 +33,21 @@ Please support on `Youtube Channel` [Console Busters](https://www.youtube.com/@C
 15. `Methods in Java`
 16. `Strings in Java`
 
-## Object Oriented Programming in Java
+# Object Oriented Programming in Java
 
 1. `Introduction to OOPS`
-2. How to create class and object in Java
+   - **📝Why Object Oriented Programming**
+   - **📝Multiple Students Example - Messy Code**
+   - **📝What is OOP?**
+   - **📝Objects and Classes**
+   - **📝Attributes and Behaviour and Identity**
+2. `How to create a class and object in Java`
+   - **📝Must define some blue print - class**
+   - **📝Object an instance of class**
+   - **📝What is constructor?**
+   - **📝Default constructor**
+   - **📝Parameterized constructor**
+   - **📝Copy constructor**
+   - **📝Object life cycle**
 3. Encapsulation in Java
 4. Inheritance in Java

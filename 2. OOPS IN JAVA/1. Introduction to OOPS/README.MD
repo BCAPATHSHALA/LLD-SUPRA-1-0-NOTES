@@ -27,7 +27,7 @@ How will you model a program having 100s of students, and each students have the
 
 To address these complexities, a structured approach like **Object-Oriented Programming** becomes crucial for `maintaining clarity`, `modularity`, and `ease of management` in the code.
 
-## What is OOP?
+## 3. What is OOP?
 
 1. Programming is used to solve real-world problems, how can we model real-world systems with programming languages.
 2. A Programming Style, involves dividing a program into pieces of objects that can communicate with each other.
@@ -37,7 +37,7 @@ To address these complexities, a structured approach like **Object-Oriented Prog
 
 6. OOP is `LIFE` (We’ll understand this on-the-go)
 
-## Objects and Classes
+## 4. Objects and Classes
 
 1. Real world `entities` like cars, person, students, building etc., they all have some `state` and `behaviour`.
 
@@ -47,18 +47,18 @@ To address these complexities, a structured approach like **Object-Oriented Prog
 
 4. Hence, Object is an `instance of a Class`.
 <p align="center">
-  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708580601/OWN%20IMAGES/real2_vjqtdc.png" alt="Object and classes">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708580601/OWN%20IMAGES/real2_vjqtdc.png" alt="Object and classes" style="border: 10px solid #b2f2bb; border-radius: 4px;">
 </p>
 
-## Attributes and Behaviour and Identity
+## 5. Attributes and Behaviour and Identity
 
 1. Attributes are `state` / `properties` of an object.
 2. Behaviour is `methods` / `functions` that an object can perform.
 3. Identity is `unique name` of each instance of a class.
 <p align="center">
-  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708581001/OWN%20IMAGES/1688638563342-1-02_29_vnla0o.png" alt="Attributes and Behaviour" width="500px" >
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1708581001/OWN%20IMAGES/1688638563342-1-02_29_vnla0o.png" alt="Attributes and Behaviour" width="500px" style="border: 10px solid #b2f2bb; border-radius: 4px;">
 </p>
- 
+
 # So…
 
 1. Object Oriented Programming (OOP) is a programming paradigm focused on implementing real-world objects.
