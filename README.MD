@@ -49,5 +49,19 @@ Please support on `Youtube Channel` [Console Busters](https://www.youtube.com/@C
    - **📝Parameterized constructor**
    - **📝Copy constructor**
    - **📝Object life cycle**
-3. Encapsulation in Java
-4. Inheritance in Java
+3. `Encapsulation in Java`
+   - **📝What is encapsulation?**
+   - **📝Access modifiers (`Brief`) in Java**
+   - **📝Not perfect encapsulation**
+   - **📝Perfect encapsulation**
+4. `Inheritance in Java`
+   - **📝What is inheritance?**
+   - **📝When do we use inheritance?**
+   - **📝General `IS-A` example**
+   - **📝Advantages of inheritance**
+   - **📝Implementation of inheritance**
+   - **📝Access modifiers (`In Detailed`) in Java**
+   - **📝Type of inheritance**
+   - **📝`super` keyword in Java**
+   - **📝`super` VS `this` Keyword in Java**
+   - **📝Structure design program using inheritance**
