@@ -32,6 +32,8 @@ Please support on `Youtube Channel` [Console Busters](https://www.youtube.com/@C
 14. `Arrays in Java`
 15. `Methods in Java`
 16. `Strings in Java`
+17. `Exception handling in Java`
+18. `Wrapper classes in Java`
 
 # Object Oriented Programming in Java
 
