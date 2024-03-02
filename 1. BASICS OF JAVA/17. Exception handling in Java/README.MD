@@ -1,7 +1,7 @@
 # Exception Handling in Java
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1709318400/Realtime_example_of_eception_handling_xqtclx.png" alt="Real Time Example of Exception Handling in Java" >
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1709318400/Realtime_example_of_eception_handling_xqtclx.png" alt="Real Time Example of Exception Handling in Java" style="border: 10px solid #b2f2bb; border-radius: 4px;" >
 </p>
 
 ## 1. 📝 What is an Exception?
@@ -25,7 +25,7 @@ Exceptions can occur due to various reasons, such as:
 ## 3. 📝 Hierarchy of Exceptions in Java
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1709312601/hierarchy_of_exceptions_izosg4.png" alt="Hierarchy of Exceptions in Java" >
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1709312601/hierarchy_of_exceptions_izosg4.png" alt="Hierarchy of Exceptions in Java" style="border: 10px solid #b2f2bb; border-radius: 4px;" >
 </p>
 
 - In Java, the hierarchy of exceptions is organized into two main branches:
@@ -49,7 +49,7 @@ Represents exceptional conditions that are external to the application, and that
 ## 4. 📝 Types of Exception in Java
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1709314027/Runtime_Exceptions_and_Compile_time_exception_e9wwrr.png" alt="Types of Exception in Java" >
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1709314027/Runtime_Exceptions_and_Compile_time_exception_e9wwrr.png" alt="Types of Exception in Java" style="border: 10px solid #b2f2bb; border-radius: 4px;">
 </p>
 
 There are mainly two types of exceptions
@@ -443,7 +443,7 @@ Rest of the code
 # 🧛🏻 Self Practice: to understand the `compile-time exception handling`
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1709365958/compile_time_exception_handling_f3uclh.png" alt="Compile time exception handling in Java" >
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1709365958/compile_time_exception_handling_f3uclh.png" alt="Compile time exception handling in Java" style="border: 10px solid #b2f2bb; border-radius: 4px;">
 </p>
 
 ```java
