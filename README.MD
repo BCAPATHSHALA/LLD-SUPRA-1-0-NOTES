@@ -34,6 +34,7 @@ Please support on `Youtube Channel` [Console Busters](https://www.youtube.com/@C
 16. `Strings in Java`
 17. `Exception handling in Java`
 18. `Wrapper classes in Java`
+19. `Collections Framework in Java`
 
 # Object Oriented Programming in Java
 
@@ -67,3 +68,14 @@ Please support on `Youtube Channel` [Console Busters](https://www.youtube.com/@C
    - **📝`super` keyword in Java**
    - **📝`super` VS `this` Keyword in Java**
    - **📝Structure design program using inheritance**
+5. `Polymorphism in Java`
+   - **📝What is Polymorphism?**
+   - **📝Types of Polymorphism**
+   - **📝Static Polymorphism**
+   - **📝Dynamic Polymorphism**
+   - **📝Downcasting in Java**
+   - **📝Important Notes**
+   - **📝Method Overloading Vs Method Overriding**
+6. `Abstraction in Java`
+
+# Object Oriented Analysis & Design
