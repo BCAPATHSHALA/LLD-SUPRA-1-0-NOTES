@@ -66,16 +66,27 @@ Please support on `Youtube Channel` [Console Busters](https://www.youtube.com/@C
    - **📝Access modifiers (`In Detailed`) in Java**
    - **📝Type of inheritance**
    - **📝`super` keyword in Java**
-   - **📝`super` VS `this` Keyword in Java**
+   - **📝`super` VS `this` keyword in Java**
    - **📝Structure design program using inheritance**
 5. `Polymorphism in Java`
-   - **📝What is Polymorphism?**
-   - **📝Types of Polymorphism**
-   - **📝Static Polymorphism**
-   - **📝Dynamic Polymorphism**
+   - **📝What is polymorphism?**
+   - **📝Types of polymorphism**
+   - **📝Static polymorphism**
+   - **📝Dynamic polymorphism**
    - **📝Downcasting in Java**
-   - **📝Important Notes**
-   - **📝Method Overloading Vs Method Overriding**
+   - **📝Important notes**
+   - **📝Method overloading Vs method overriding**
 6. `Abstraction in Java`
+   - **📝What is abstraction?**
+   - **📝Abstraction in java collections**
+   - **📝Ways to achieve abstraction**
+   - **📝Abstraction using classes**
+   - **📝Abstraction using abstract class**
+   - **📝Abstraction using interface (new way to design strategy)**
+   - **📝Upcasting in abstraction**
+   - **📝Real world examples of abstraction**
+   - **📝Abstract class Vs interface**
+   - **📝Advantages of abstraction**
+   - **📝Achieve multiple inheritance using interface**
 
 # Object Oriented Analysis & Design
