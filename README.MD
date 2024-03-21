@@ -18,27 +18,32 @@ Please support on `Youtube Channel` [Console Busters](https://www.youtube.com/@C
 
 This section covers fundamental concepts and features of Java programming language.
 
-| #   | Topic                                     |
-| --- | ----------------------------------------- |
-| 1.  | Introduction of Java                      |
-| 2.  | Java Vs C++                               |
-| 3.  | Java program execution process            |
-| 4.  | JDK Vs JRE Vs JVM                         |
-| 5.  | Write your first Java program             |
-| 6.  | Variables in Java                         |
-| 7.  | Data types in Java                        |
-| 8.  | Type conversion in Java                   |
-| 9.  | Operators in Java                         |
-| 10. | Taking input in Java                      |
-| 11. | Java garbage collection                   |
-| 12. | Conditional statements                    |
-| 13. | Loop statements                           |
-| 14. | Arrays in Java                            |
-| 15. | Methods in Java                           |
-| 16. | Strings in Java                           |
-| 17. | Exception handling in Java                |
-| 18. | Wrapper classes in Java                   |
-| 19. | Collections Framework in Java             |
+# Basics of Java
+
+This section covers fundamental concepts and features of Java programming language.
+
+| #   | Topic                                     | Read Articles  |
+| --- | ----------------------------------------- | -------------- |
+| 1.  | Introduction of Java                     | [Link](#)      |
+| 2.  | Java Vs C++                              | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/2.%20Java%20Vs%20C%2B%2B)      |
+| 3.  | Java program execution process           | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/3.%20Java%20program%20execution%20process)      |
+| 4.  | JDK Vs JRE Vs JVM                        | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/4.%20JDK%20Vs%20JRE%20Vs%20JVM)      |
+| 5.  | Write your first Java program            | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/5.%20Write%20your%20first%20Java%20program)      |
+| 6.  | Variables in Java                        | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/6.%20Variables%20in%20Java)      |
+| 7.  | Data types in Java                       | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/7.%20Data%20types%20in%20Java)      |
+| 8.  | Type conversion in Java                  | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/8.%20Type%20conversion%20in%20Java)      |
+| 9.  | Operators in Java                        | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/9.%20Operators%20in%20Java)      |
+| 10. | Taking input in Java                     | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/10.%20Taking%20input%20in%20Java)      |
+| 11. | Java garbage collection                  | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/11.%20Java%20garbage%20collection)      |
+| 12. | Conditional statements                   | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/12.%20Conditional%20statements)      |
+| 13. | Loop statements                          | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/13.%20Loop%20statements)      |
+| 14. | Arrays in Java                           | [Link 1](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/1.%20BASICS%20OF%20JAVA/14.%20Arrays%20in%20Java/ONEDARRAY.MD)  [Link 2](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/1.%20BASICS%20OF%20JAVA/14.%20Arrays%20in%20Java/TWODARRAY.MD)     |
+| 15. | Methods in Java                          | [Link 1](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/1.%20BASICS%20OF%20JAVA/15.%20Methods%20in%20Java/README.MD)   [Link 2](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/1.%20BASICS%20OF%20JAVA/15.%20Methods%20in%20Java/CALLSTACK.MD)   |
+| 16. | Strings in Java                          | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/16.%20Strings%20in%20Java)      |
+| 17. | Exception handling in Java               | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/17.%20Exception%20handling%20in%20Java)      |
+| 18. | Wrapper classes in Java                  | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/18.%20Wrapper%20classes%20in%20Java)      |
+| 19. | Collections Framework in Java            | [Link](#)      |
+
 
 # Object Oriented Programming in Java
 
