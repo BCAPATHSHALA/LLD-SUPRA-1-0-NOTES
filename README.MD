@@ -16,77 +16,56 @@ Please support on `Youtube Channel` [Console Busters](https://www.youtube.com/@C
 
 # Basics of Java
 
-1. `Introduction of Java`
-2. `Java Vs C++`
-3. `Java program execution process`
-4. `JDK Vs JRE Vs JVM`
-5. `Write your first Java program`
-6. `Variables in Java`
-7. `Data types in Java`
-8. `Type conversion in Java`
-9. `Operators in Java`
-10. `Taking input in Java`
-11. `Java garbage collection`
-12. `Conditional statements`
-13. `Loop statements`
-14. `Arrays in Java`
-15. `Methods in Java`
-16. `Strings in Java`
-17. `Exception handling in Java`
-18. `Wrapper classes in Java`
-19. `Collections Framework in Java`
+This section covers fundamental concepts and features of Java programming language.
+
+| #   | Topic                                     |
+| --- | ----------------------------------------- |
+| 1.  | Introduction of Java                      |
+| 2.  | Java Vs C++                               |
+| 3.  | Java program execution process            |
+| 4.  | JDK Vs JRE Vs JVM                         |
+| 5.  | Write your first Java program             |
+| 6.  | Variables in Java                         |
+| 7.  | Data types in Java                        |
+| 8.  | Type conversion in Java                   |
+| 9.  | Operators in Java                         |
+| 10. | Taking input in Java                      |
+| 11. | Java garbage collection                   |
+| 12. | Conditional statements                    |
+| 13. | Loop statements                           |
+| 14. | Arrays in Java                            |
+| 15. | Methods in Java                           |
+| 16. | Strings in Java                           |
+| 17. | Exception handling in Java                |
+| 18. | Wrapper classes in Java                   |
+| 19. | Collections Framework in Java             |
 
 # Object Oriented Programming in Java
 
-1. `Introduction to OOPS`
-   - **📝Why Object Oriented Programming**
-   - **📝Multiple Students Example - Messy Code**
-   - **📝What is OOP?**
-   - **📝Objects and Classes**
-   - **📝Attributes and Behaviour and Identity**
-2. `How to create a class and object in Java`
-   - **📝Must define some blue print - class**
-   - **📝Object an instance of class**
-   - **📝What is constructor?**
-   - **📝Default constructor**
-   - **📝Parameterized constructor**
-   - **📝Copy constructor**
-   - **📝Object life cycle**
-3. `Encapsulation in Java`
-   - **📝What is encapsulation?**
-   - **📝Access modifiers (`Brief`) in Java**
-   - **📝Not perfect encapsulation**
-   - **📝Perfect encapsulation**
-4. `Inheritance in Java`
-   - **📝What is inheritance?**
-   - **📝When do we use inheritance?**
-   - **📝General `IS-A` example**
-   - **📝Advantages of inheritance**
-   - **📝Implementation of inheritance**
-   - **📝Access modifiers (`In Detailed`) in Java**
-   - **📝Type of inheritance**
-   - **📝`super` keyword in Java**
-   - **📝`super` VS `this` keyword in Java**
-   - **📝Structure design program using inheritance**
-5. `Polymorphism in Java`
-   - **📝What is polymorphism?**
-   - **📝Types of polymorphism**
-   - **📝Static polymorphism**
-   - **📝Dynamic polymorphism**
-   - **📝Downcasting in Java**
-   - **📝Important notes**
-   - **📝Method overloading Vs method overriding**
-6. `Abstraction in Java`
-   - **📝What is abstraction?**
-   - **📝Abstraction in java collections**
-   - **📝Ways to achieve abstraction**
-   - **📝Abstraction using classes**
-   - **📝Abstraction using abstract class**
-   - **📝Abstraction using interface (new way to design strategy)**
-   - **📝Upcasting in abstraction**
-   - **📝Real world examples of abstraction**
-   - **📝Abstract class Vs interface**
-   - **📝Advantages of abstraction**
-   - **📝Achieve multiple inheritance using interface**
+This section covers Object Oriented Programming concepts in Java.
 
-# Object Oriented Analysis & Design
+| #   | Topic                                     | Subtopics                           |
+| --- | ----------------------------------------- | ----------------------------------- |
+| 1.  | **Introduction to OOPS**                  | - 📝 Why Object Oriented Programming  <br> - 📝 Multiple Students Example - Messy Code  <br> - 📝 What is OOP?  <br> - 📝 Objects and Classes  <br> - 📝 Attributes and Behaviour and Identity |
+| 2.  | **How to create a class and object in Java**  | - 📝 Must define some blue print - class  <br> - 📝 Object an instance of class  <br> - 📝 What is constructor?  <br> - 📝 Default constructor  <br> - 📝 Parameterized constructor  <br> - 📝 Copy constructor  <br> - 📝 Object life cycle |
+| 3.  | **Encapsulation in Java**                     | - 📝 What is encapsulation?  <br> - 📝 Access modifiers (`Brief`) in Java  <br> - 📝 Not perfect encapsulation  <br> - 📝 Perfect encapsulation |
+| 4.  | **Inheritance in Java**                       | - 📝 What is inheritance?  <br> - 📝 When do we use inheritance?  <br> - 📝 General `IS-A` example  <br> - 📝 Advantages of inheritance  <br> - 📝 Implementation of inheritance  <br> - 📝 Access modifiers (`In Detailed`) in Java  <br> - 📝 Type of inheritance  <br> - 📝 `super` keyword in Java  <br> - 📝 `super` VS `this` keyword in Java  <br> - 📝 Structure design program using inheritance |
+| 5.  | **Polymorphism in Java**                      | - 📝 What is polymorphism?  <br> - 📝 Types of polymorphism  <br> - 📝 Static polymorphism  <br> - 📝 Dynamic polymorphism  <br> - 📝 Downcasting in Java  <br> - 📝 Important notes  <br> - 📝 Method overloading Vs method overriding |
+| 6.  | **Abstraction in Java**                       | - 📝 What is abstraction?  <br> - 📝 Abstraction in java collections  <br> - 📝 Ways to achieve abstraction  <br> - 📝 Abstraction using classes  <br> - 📝 Abstraction using abstract class  <br> - 📝 Abstraction using interface (new way to design strategy)  <br> - 📝 Upcasting in abstraction  <br> - 📝 Real world examples of abstraction  <br> - 📝 Abstract class Vs interface  <br> - 📝 Advantages of abstraction  <br> - 📝 Achieve multiple inheritance using interface |
+
+# Object-Oriented Analysis And Design Module I & II
+
+This section covers topics related to Object-Oriented Analysis and Design in Java.
+
+| Topic                       | PDF NOTES                         | Read Articles               |
+| --------------------------- | --------------------------------- | --------------------------- |
+| 1. What is OOAD & Why OOAD? | [Link](#)                         | [Link](#)                   |
+| 2. Introduction To UML      | [Link](#)                         | [Link](#)                   |
+| 3. UML Basic Notations      | [Link](#)                         | [Link](#)                   |
+| 4. Types OF UML Diagram     | [Link](#)                         | [Link](#)                   |
+| 5. UML Use Case Diagram     | [Link](#)                         | [Link](#)                   |
+| 6. UML Class Diagram        | [Link](#)                         | [Link](#)                   |
+| 7. UML Sequence Diagram     | [Link](#)                         | [Link](#)                   |
+| 8. UML Activity Diagram     | [Link](#)                         | [Link](#)                   |
+
+## I will provide PDF Notes and Articles very soon
