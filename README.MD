@@ -74,50 +74,11 @@ This section covers topics related to Object-Oriented Analysis and Design in Jav
 
 ## I will provide Articles very soon
 
-# Mastering Design Principles - SOLID (Module-I)
+# Mastering Design Principles - SOLID (Module-I & II)
 
-1. What is A Good Coder / Quality Code?
-   - Readable
-   - Remable
-   - Extensible
-   - Flexible
-   - Stable (Exception Handling)
-   - Modular
-   - Secure
-   - Correct
-2. Functional Vs Object Oriented Programming
-3. What is SOLID Principles & Why SOLID Principles? (Good Coder)
-4. Single Responsibility Principle (SRP)
-   - 📝 What is SRP?
-   - 📝 In One Statement
-   - 📝 Key Idea
-   - 📝 Real-Time Examples
-   - 📝 How can Single Responsibility Principle be applied?
-   - 📝 Practical Coding Examples in Java #1
-   - 📝 Practical Coding Examples in Java #2
-   - 📝 Practical Coding Examples in Java #3
-5. Open-Closed Principle (OCP)
-   - 📝 What is OCP?
-   - 📝 In One Statement
-   - 📝 Key Idea
-   - 📝 Real-Time Examples
-   - 📝 How can Single Responsibility Principle be applied?
-   - 📝 Practical Coding Examples in Java #1
-   - 📝 Complete Program in Java
-   - 📝 Practical Coding Examples in Java #2
-   - 📝 Complete Program in Java
-   - 🧐 OCP Often Indirectly Promotes SRP?
-   - 📝 Bad Practice for Coding with Examples
-     1. 🧔🏻‍♂️ if & switch statement
-     2. 🧔🏻‍♂️ Voilet OCP
-     3. 🧔🏻‍♂️ Cyclomatic Complexity (Like a tree)
-     4. 🧔🏻‍♂️ Downcasting (Child hold the Parent)
-     5. 🧔🏻‍♂️ TypeCheckErrors (Like compile time errors)
-     6. 🧔🏻‍♂️ Anti Abstraction
-   - 🧐 Big Picture of Violet and Not Violet The SRP & OCP in One Example for Much Better Under Standing
-
-# Mastering Design Principles - SOLID (Module-II)
-
-1. Liskov Substitution Principle (LSP)
-2. Interface Segregation Principle (ISP)
-3. Dependency Inversion Principle (DIP)
+1. What is SOLID Principles?
+2. Single Responsibility Principle (SRP)
+3. Open-Closed Principle (OCP)
+4. Liskov Substitution Principle (LSP)
+5. Interface Segregation Principle (ISP)
+6. Dependency Inversion Principle (DIP)
