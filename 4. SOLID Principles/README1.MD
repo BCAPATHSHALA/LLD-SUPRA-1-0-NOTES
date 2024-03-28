@@ -2,31 +2,32 @@
 
 ### Table of Contents
 
-1. [What is A Good Coder / Quality Code?](#what-is-a-good-coder--quality-code)
-2. [Functional Vs Object Oriented Programming](#functional-vs-object-oriented-programming)
-3. [What is SOLID Principles & Why SOLID Principles? (Good Coder)](#what-is-solid-principles--why-solid-principles-good-coder)
-4. [Single Responsibility Principle (SRP)](#single-responsibility-principle-srp)
-   - [📝 What is SRP?](#-what-is-srp)
-   - [📝 In One Statement](#-in-one-statement)
-   - [📝 Key Idea](#-key-idea)
-   - [📝 Real-Time Examples](#-real-time-examples)
-   - [📝 How can Single Responsibility Principle be applied?](#-how-can-single-responsibility-principle-be-applied)
-   - [📝 Practical Coding Examples in Java #1](#-practical-coding-examples-in-java-1)
-   - [📝 Practical Coding Examples in Java #2](#-practical-coding-examples-in-java-2)
-   - [📝 Practical Coding Examples in Java #3](#-practical-coding-examples-in-java-3)
+1. [What is A Good Coder / Quality Code?](#1--what-is-a-good-coder--quality-code)
+2. [Functional Vs Object Oriented Programming](#2--functional-vs-object-oriented-programming)
+3. [What is SOLID Principles? ](#3--what-is-solid-principles) &
+   [Why SOLID Principles? (Good Coder)](#why-solid-principles-good-coder)
+4. [Single Responsibility Principle (SRP)](#4--single-responsibility-principle-srp)
+   - 📝 What is SRP?
+   - 📝 In One Statement
+   - 📝 Key Idea
+   - 📝 Real-Time Examples
+   - 📝 How can Single Responsibility Principle be applied?
+   - 📝 Practical Coding Examples in Java #1
+   - 📝 Practical Coding Examples in Java #2
+   - 📝 Practical Coding Examples in Java #3
 5. [Open-Closed Principle (OCP)](#open-closed-principle-ocp)
-   - [📝 What is OCP?](#-what-is-ocp)
-   - [📝 In One Statement](#-in-one-statement-1)
-   - [📝 Key Idea](#-key-idea-1)
-   - [📝 Real-Time Examples](#-real-time-examples-1)
-   - [📝 How can Open-Closed Principle be applied?](#-how-can-open-closed-principle-be-applied)
-   - [📝 Practical Coding Examples in Java #1](#-practical-coding-examples-in-java-1-1)
-   - [📝 Complete Program in Java](#-complete-program-in-java)
-   - [📝 Practical Coding Examples in Java #2](#-practical-coding-examples-in-java-2-1)
-   - [📝 Complete Program in Java](#-complete-program-in-java-1)
-   - [🧐 OCP Often Indirectly Promotes SRP?](#-ocp-often-indirectly-promotes-srp)
+   - 📝 What is OCP?
+   - 📝 In One Statement
+   - 📝 Key Idea
+   - 📝 Real-Time Examples
+   - 📝 How can Open-Closed Principle be applied?
+   - 📝 Practical Coding Examples in Java #1
+   - 📝 Complete Program in Java
+   - 📝 Practical Coding Examples in Java #2
+   - 📝 Complete Program in Java
+   - [🧐 OCP Often Indirectly Promotes SRP?](#-i-noticed-that-ocp-often-indirectly-promotes-srp)
    - [📝 Bad Practice for Coding with Examples](#-bad-practice-for-coding-with-examples)
-   - [Big Picture: Violet and Not Violet SRP & OCP in One Example](#big-picture-violet-and-not-violet-srp--ocp-in-one-example)
+   - [Big Picture: Violet and Not Violet SRP & OCP in One Example](#-big-picture-violet-and-not-violet-srp--ocp-in-one-example)
 
 ## 1. 📝 What is A Good Coder / Quality Code?
 
