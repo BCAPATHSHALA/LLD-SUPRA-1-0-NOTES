@@ -15,7 +15,7 @@
    - 📝 Practical Coding Examples in Java #1
    - 📝 Practical Coding Examples in Java #2
    - 📝 Practical Coding Examples in Java #3
-5. [Open-Closed Principle (OCP)](#open-closed-principle-ocp)
+5. [Open-Closed Principle (OCP)](#5--open-closed-principle-ocp)
    - 📝 What is OCP?
    - 📝 In One Statement
    - 📝 Key Idea
