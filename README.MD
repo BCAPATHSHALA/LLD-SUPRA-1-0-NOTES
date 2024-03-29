@@ -72,9 +72,13 @@ This section covers topics related to Object-Oriented Analysis and Design in Jav
 
 # Object Oriented Design Principles - SOLID (Module-I & II)
 
-1. What is SOLID Principles?
-2. Single Responsibility Principle (SRP)
-3. Open-Closed Principle (OCP)
-4. Liskov Substitution Principle (LSP)
-5. Interface Segregation Principle (ISP)
-6. Dependency Inversion Principle (DIP)
+| Topic                                    | PDF NOTES | Read Articles                                                                                            |
+| ---------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------- |
+| 1. What is SOLID Principles?             | [Link](#) | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/4.%20SOLID%20Principles/README1.MD) |
+| 2. Single Responsibility Principle (SRP) | [Link](#) | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/4.%20SOLID%20Principles/README2.MD) |
+| 3. Open-Closed Principle (OCP)           | [Link](#) | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/4.%20SOLID%20Principles/README3.MD) |
+| 4. Liskov Substitution Principle (LSP)   | [Link](#) | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/4.%20SOLID%20Principles/README4.MD) |
+| 5. Interface Segregation Principle (ISP) | [Link](#) | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/4.%20SOLID%20Principles/README5.MD) |
+| 6. Dependency Inversion Principle (DIP)  | [Link](#) | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/4.%20SOLID%20Principles/README6.MD) |
+
+## I will provide PDF Notes very soon
