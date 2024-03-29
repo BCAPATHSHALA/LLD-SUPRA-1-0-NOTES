@@ -412,7 +412,7 @@ public class Example{
 }
 */
 
-// Not Violet LSP
+/* Not Violet LSP
 // Supar Class: Human
 class Human{
     public void consumerFun(Human human){
@@ -476,7 +476,6 @@ public class Example{
     }
 }
 
-/*
 Expected Output:
 Human is sleeping
 Child is eating
@@ -484,3 +483,224 @@ Child is sleeping
 Adult is eating
 Adult is sleeping
 */
+
+
+/* Violet ISP
+// Large Interface: IWorker
+interface IWorker{
+    void work();
+    void eat();
+}
+
+class Human implements IWorker{
+    @Override
+    public void work() {
+        System.out.println("Human (Manager) can work");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Human (Manager) can eat");
+    }
+}
+
+class Robot implements IWorker{
+    @Override
+    public void work() {
+        System.out.println("Robot can work");
+    }
+    @Override
+    public void eat() {
+        // Robots don't eat, so this method should not be here (Violet ISP)
+        System.out.println("Robot can't eat");
+    }
+}
+
+public class Example {
+    public static void main(String[] args) {
+        IWorker human = new Human();
+        IWorker robot = new Robot();
+
+        // Human not violet ISP
+        human.work(); // Human (Manager) can work
+        human.eat(); // Human (Manager) can eat
+
+        // Robot violet ISP
+        robot.work(); // Robot can work
+        robot.eat(); // Robot can't eat
+    }
+}
+*/
+
+
+/* Not Violet ISP
+// Small Interface: IWorkable
+interface IWorkable{
+    void work();
+}
+
+// Small Interface: IEatable
+interface IEatable{
+    void eat();
+}
+
+class Human implements IWorkable, IEatable {
+    @Override
+    public void work() {
+        System.out.println("Human (Manager) can work");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Human (Manager) can eat");
+    }
+}
+
+class Robot implements IWorkable{
+    @Override
+    public void work() {
+        System.out.println("Robot can work");
+    }
+}
+
+public class Example {
+    public static void main(String[] args) {
+        IWorkable humanWork = new Human();
+        IEatable humanEat = new Human();
+        IWorkable robotWork = new Robot();
+
+        // Human not violet ISP
+        humanWork.work(); // Human (Manager) can work
+        humanEat.eat(); // Human (Manager) can eat
+
+        // Robot not violet ISP
+        robotWork.work(); // Robot can work
+    }
+}
+*/
+
+/* Violet ISP
+// Large Interface: Shape
+interface Shape{
+    double area();
+    double volume();
+}
+
+class Square implements Shape {
+    @Override
+    public double area() {
+        System.out.println("Square have area");
+        double area = 1.2;
+        return area;
+    }
+    @Override
+    public double volume() {
+        // Square don't have volume, so this method should not be here (Violet ISP)
+        System.out.println("Square does not have volume");
+        double volume = 2.1;
+        return volume;
+    }
+}
+
+class Cube implements Shape{
+    @Override
+    public double area() {
+        System.out.println("Cube have area");
+        double area = 2.5;
+        return area;
+    }
+    @Override
+    public double volume() {
+        System.out.println("Cube have surface area");
+        double volume = 3.5;
+        return volume;
+    }
+}
+
+public class Example {
+    public static void main(String[] args) {
+        Shape square = new Square();
+        Shape cube = new Cube();
+
+        // Square violet ISP
+        square.area(); // Square have area
+        square.volume(); // Square does not have volume 
+
+        // Cube not violet ISP
+        cube.area(); // Cube have area
+        cube.volume(); // Cube have surface area
+    }
+}
+
+*/
+
+
+// Not Violet
+// Large Interface: Shape
+interface Shape{
+    void display(double val);
+}
+
+// Small Interface: ITwoDShape
+interface ITwoDShape extends Shape{
+    double area();
+}
+
+// Small Interface: IThreeDShape
+interface IThreeDShape extends Shape{
+    double volume();
+}
+
+class Square implements ITwoDShape {
+    private double side;
+    Square(double side){
+        this.side = side;
+    }
+
+    @Override
+    public void display(double area) {
+        System.out.printf("Square have area: %f", area);        
+    }
+
+    @Override
+    public double area() {
+        double area = side*side;
+        return area;
+    }
+}
+
+class Cube implements IThreeDShape {
+    private double side;
+    Cube(double side){
+        this.side = side;
+    }
+
+    @Override
+    public void display(double volume) {
+        System.out.printf("Cube has volume: %f", volume);        
+    }
+
+    @Override
+    public double volume() {
+        double volume = side*side*side;
+        return volume;
+    }
+}
+
+public class Example {
+    public static void main(String[] args) {
+        ITwoDShape square = new Square(2.1);
+        IThreeDShape cube = new Cube(4);
+
+        // Square violet ISP
+        double area = square.area(); 
+        square.display(area); // Square have area: 4.410000
+
+        // Cube violet ISP
+        double volume = cube.volume();
+        cube.display(volume); // Cube has volume: 64.000000
+    }
+}
+
+
+

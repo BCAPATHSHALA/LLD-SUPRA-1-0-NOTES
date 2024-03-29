@@ -18,10 +18,6 @@ Please support on `Youtube Channel` [Console Busters](https://www.youtube.com/@C
 
 This section covers fundamental concepts and features of Java programming language.
 
-# Basics of Java
-
-This section covers fundamental concepts and features of Java programming language.
-
 | #   | Topic                          | Read Articles                                                                                                                                                                                                                                                               |
 | --- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1.  | Introduction of Java           | [Link](#)                                                                                                                                                                                                                                                                   |
