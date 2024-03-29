@@ -635,7 +635,7 @@ public class Example {
 */
 
 
-// Not Violet
+/* Not Violet ISP
 // Large Interface: Shape
 interface Shape{
     void display(double val);
@@ -702,5 +702,232 @@ public class Example {
     }
 }
 
+*/
+
+/* Violet DIP
+// Higher level module: Application
+class Application {
+    private FileLogger logger;
+
+    public Application(FileLogger logger) {
+        this.logger = logger;
+    }
+
+    public void process() {
+        logger.log("Application started");
+        // Additional logic here
+    }
+}
+
+// Lower level module: FileLogger
+class FileLogger {
+
+    public void log(String message) {
+        // Code to write the message to a file
+        System.out.println("Log method called");
+    }
+}
+
+// New Lower level module: ConsoleLogger
+class ConsoleLogger {
+
+    public void clog(String message) {
+        // Code to write the message to a file
+        System.out.println("Clog method called");
+    }
+}
+
+public class Example {
+    public static void main(String[] args) {
+        FileLogger logger = new FileLogger();
+        ConsoleLogger clogger = new ConsoleLogger();
+        // We can't pass the cloogger as params in Application(clogger) without modifying the Application, other wise program gives an compile time error.
+        Application app = new Application(logger);
+        app.process();
+    }
+}
+
+*/
+
+
+/* Not Violet the DIP
+// Step 1: Define the Abstraction
+
+// Interface : Ilogger
+interface ILogger {
+    void log(String message);
+}
+
+// Step 2: Implement the Abstraction
+
+// LLM 1: ConsoleLogger
+class FileLogger implements ILogger {
+    @Override
+    public void log(String message) {
+        System.out.println("FileLogger: " + message);
+    }
+}
+
+// LLM 2: ConsoleLogger
+class ConsoleLogger implements ILogger {
+    @Override
+    public void log(String message) {
+        System.out.println("ConsoleLogger: " + message);
+    }
+}
+
+// LLM 3: ExternalServiceLogger
+class ExternalServiceLogger implements ILogger {
+    @Override
+    public void log(String message) {
+        System.out.println("ExternalServiceLogger: " + message);
+        // Code to send the message to an external service
+        // This could involve HTTP requests, dealing with authentication, etc.
+    }
+}
+
+// Step 3: Higher level app now depends upon Abstraction
+
+// HLM 1: Application
+class Application {
+    private ILogger logger;
+
+    public Application(ILogger logger) {
+        this.logger = logger;
+    }
+
+    public void process() {
+        logger.log("Application started");
+        // Additional logic here
+    }
+}
+
+public class Example {
+    public static void main(String[] args) {
+        ILogger fileLog = new FileLogger();
+        ILogger consoleLog = new ConsoleLogger();
+        ILogger externalServiceLog = new ExternalServiceLogger();
+        
+        // Now we dont need to change for passing fileLog, consoleLog, and externalServiceLog as paramas into Application
+        Application app1 = new Application(fileLog);
+        Application app2 = new Application(consoleLog);
+        Application app3 = new Application(externalServiceLog);
+        
+        app1.process(); // FileLogger: Application started
+        app2.process(); //  ConsoleLogger: Application started
+        app3.process(); // ExternalServiceLogger: Application started
+    }
+}
+*/
+
+
+/* Violet DIP
+// Higher level module: GoToWork
+class GoToWork {
+    private Metro metro;
+    public GoToWork(Metro metro) {
+        this.metro = metro;
+    }
+
+    public void process() {
+        metro.travel("Transport started");
+        // Additional logic here
+    }
+}
+
+// Lower level module: Metro
+class Metro {
+    public void travel(String message) {
+        // Code to write the message to a file
+    }
+}
+
+// New Lower level module: Rapido
+class Rapido {
+    public void travel(String message) {
+        // Code to write the message to a file
+    }
+}
+
+public class Example {
+    public static void main(String[] args) {
+        Metro metroTransport = new Metro();
+        Rapido rapidoTransport = new Rapido();
+        // We can't pass the rapidoTransport as params in GoToWork(rapidoTransport) without modifying the GotoWork, other wise program gives an compile time error.
+        GoToWork app = new GoToWork(metroTransport);
+        app.process();
+    }
+}
+*/
+
+
+
+// Not Violet the DIP
+// Step 1: Define the Abstraction
+
+// Interface : ITransport
+interface ITransport {
+    void travel(String message);
+}
+
+// Step 2: Implement the Abstraction
+
+// LLM 1: Metro
+class Metro implements ITransport {
+    @Override
+    public void travel(String message) {
+        System.out.println("Metro: " + message);
+    }
+}
+
+// LLM 2: Rapido
+class Rapido implements ITransport {
+    @Override
+    public void travel(String message) {
+        System.out.println("Rapido: " + message);
+    }
+}
+
+// LLM 3: Uber
+class Uber implements ITransport {
+    @Override
+    public void travel(String message) {
+        System.out.println("Uber: " + message);
+    }
+}
+
+// Step 3: Higher level app now depends upon Abstraction
+
+// HLM 1: GoToWork
+class GoToWork {
+    private ITransport transport;
+
+    public GoToWork(ITransport transport) {
+        this.transport = transport;
+    }
+
+    public void process() {
+        transport.travel("transport started");
+        // Additional logic here
+    }
+}
+
+public class Example {
+    public static void main(String[] args) {
+        ITransport metroTrav = new Metro();
+        ITransport rapidoTrav = new Rapido();
+        ITransport uberTrav = new Uber();
+        
+        // Now we don't need to change for passing metroTrav, rapidoTrav, and uberTrav as paramas into GoToWork
+        GoToWork transport1 = new GoToWork(metroTrav);
+        GoToWork transport2 = new GoToWork(rapidoTrav);
+        GoToWork transport3 = new GoToWork(uberTrav);     
+
+
+        transport1.process(); // Metro: transport started
+        transport2.process(); // Rapido: transport started
+        transport3.process(); // Uber: transport started
+    }
+}
 
 
