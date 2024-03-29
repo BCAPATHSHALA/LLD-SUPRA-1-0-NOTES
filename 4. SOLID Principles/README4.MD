@@ -349,32 +349,355 @@ public class Example{
 
 ## 📝 Practical Coding Examples in Java #2
 
-### 📝 Complete Program in Java
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1711654239/LSP_2_jd4xuq.png" alt="Liskov Substitution Principle" style="border: 10px solid #b2f2bb; border-radius: 4px;">
+</p>
+
+### Violet LSP
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1711654241/LSP_2.1_graiul.png" alt="Liskov Substitution Principle" style="border: 10px solid #b2f2bb; border-radius: 4px;">
+</p>
 
 ```java
-// Violet LSP
+// Supar Class: Vehicle
+class Vehicle{
+    public void startEngine(){
+        System.out.println("Vehicle may have engine");
+    }
+    public void doMovement(){
+        System.out.println("Vehicle can move");
+    }
+    public void fly(){
+        System.out.println("Vehicle may fly");
+    }
+}
+
+// Subclass: Car
+class Car extends Vehicle {
+    @Override
+    public void startEngine(){
+        System.out.println("Car have engine");
+    }
+    @Override
+    public void doMovement() {
+        System.out.println("Car can move");
+    }
+    // Exception 1: Car cannot fly, so we don't override the fly method
+}
+
+// Subclass: Cycle
+class Cycle extends Vehicle {
+    // Exception 1: Cycle does not have engine, so we don't override the startEngine method
+    @Override
+    public void doMovement() {
+        System.out.println("Cycle can move");
+    }
+    // Exception 2: Cycle cannot fly, so we don't override the fly method
+}
+
+// Subclass: Airplane
+class Airplane extends Vehicle {
+    @Override
+    public void startEngine() {
+        System.out.println("Airplane have engine");
+    }
+    @Override
+    public void doMovement() {
+        System.out.println("Airplane can move");
+    }
+    @Override
+    public void fly() {
+        System.out.println("Airplane can fly");
+    }
+}
+
+public class Example{
+    public static void main(String[] args) {
+        Vehicle car = new Car();
+        Vehicle cycle = new Cycle();
+        Vehicle airplane = new Airplane();
+
+        // Car violet LSP
+        car.startEngine(); // Car have engine
+        car.doMovement(); // Car can move
+        car.fly(); // Vehicle may fly
+
+        // Cycle violet LSP
+        cycle.startEngine(); // Vehicle may have engine
+        cycle.doMovement(); // Cycle can move
+        cycle.fly(); // Vehicle may fly
+
+        // Only Airplane not violet LSP
+        airplane.startEngine(); // Airplane have engine
+        airplane.doMovement(); // Airplane can move
+        airplane.fly(); // Airplane can fly
+    }
+}
 ```
 
 #### Why Violet LSP?
 
+    When does not apply the exception handling in this example then
+
+1. Car Class Violation:
+
+   In the `Car` class, the `fly()` method is not overridden. According to the superclass `Vehicle`, all vehicles may fly. However, since cars cannot fly, this **violates the LSP** as it introduces unexpected behavior. The `fly()` method in the superclass should either be removed or appropriately handled in the subclass.
+
+2. Cycle Class Violation:
+
+   Similar to the `Car` class, the `Cycle` class also does not override the fly() method. According to the superclass `Vehicle`, all vehicles may fly, but cycles cannot. This again **violates the LSP**, as it introduces unexpected behavior. Additionally, the `startEngine()` method is not overridden, which is not necessarily a violation, but it's worth noting that it adds inconsistency to the interface.
+
+### Not Violet LSP
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1711654238/LSP_2.2_ppei3x.png" alt="Liskov Substitution Principle" style="border: 10px solid #b2f2bb; border-radius: 4px;">
+</p>
+
 ```java
-// Not Violet LSP
+// Supar Class: Vehicle
+class Vehicle{
+    // Consumer Method
+    public void consumerFun(Vehicle vehicle){
+        vehicle.doMovement();
+    }
+    public void doMovement(){
+        System.out.println("Vehicle can move");
+    }
+}
+
+
+// Interface: IHaveEngine
+interface IHaveEngine {
+    void startEngine();
+}
+
+// Interface: IFlyable
+interface IFlyable{
+    void fly();
+}
+
+// Subclass: Car
+class Car extends Vehicle implements IHaveEngine{
+    @Override
+    public void startEngine(){
+        System.out.println("Car have engine");
+    }
+    @Override
+    public void doMovement() {
+        System.out.println("Car can move");
+    }
+}
+
+// Subclass: Cycle
+class Cycle extends Vehicle {
+    @Override
+    public void doMovement() {
+        System.out.println("Cycle can move");
+    }
+}
+
+// Multiple Inheritance for Airplane
+// interface IFlyable_IHaveEngine extends IHaveEngine, IFlyable{}
+
+// Subclass: Airplane
+class Airplane extends Vehicle implements IHaveEngine, IFlyable {
+    @Override
+    public void startEngine() {
+        System.out.println("Airplane have engine");
+    }
+    @Override
+    public void doMovement() {
+        System.out.println("Airplane can move");
+    }
+    @Override
+    public void fly() {
+        System.out.println("Airplane can fly");
+    }
+}
+
+public class Example{
+    public static void main(String[] args) {
+        Vehicle vehicle = new Vehicle();
+        Vehicle car = new Car();
+        Vehicle cycle = new Cycle();
+        Vehicle airplane = new Airplane();
+
+        // Meaning Of Substitution: Any derived class should be able to substitute its parent class without the consumer knowing it
+        vehicle.consumerFun(vehicle); // Vehicle can move
+        vehicle.consumerFun(car); // Car can move
+        vehicle.consumerFun(cycle); // Cycle can move
+        vehicle.consumerFun(airplane); // Airplane can move
+    }
+}
 ```
 
 #### Why Not Violet LSP?
+
+1. `Car`, `Cycle`, and `Airplane` are subclasses of `Vehicle`.
+
+2. All the methods overridden in subclasses (`doMovement()` and `startEngine()`) are substituting their parent class methods without changing their behavior in a way that would break the program's correctness.
+
+3. When you pass instances of subclasses (`Car`, `Cycle`, `Airplane`) to the `consumerFun()` method, they behave as expected and do not cause any unexpected behavior or errors.
+
+Therefore, the Liskov Substitution Principle is not violated in this example.
 
 ## 📝 Practical Coding Examples in Java #3
 
-### 📝 Complete Program in Java
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1711684336/LSP_3_g46kkp.png" alt="Liskov Substitution Principle" style="border: 10px solid #b2f2bb; border-radius: 4px;">
+</p>
+
+### Violet LSP
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1711684336/LSP_3.1_uos4uz.png" alt="Liskov Substitution Principle" style="border: 10px solid #b2f2bb; border-radius: 4px;">
+</p>
 
 ```java
-// Violet LSP
+// Supar Class: Human
+class Human{
+    public void eat(){
+        System.out.println("Human is eating");
+    }
+    public void sleep(){
+        System.out.println("Human is sleeping");
+    }
+    public void work(){
+        System.out.println("Human can work");
+    }
+    public void makeDinner(){
+        System.out.println("Human can make dinner");
+    }
+}
+
+// Subclass: Child
+class Child extends Human {
+    public void eat(){
+        System.out.println("Child is eating");
+    }
+    public void sleep(){
+        System.out.println("Child is sleeping");
+    }
+    // Exception 1: Child cannot work, so we don't override the work method
+    // Exception 2: Child cannot make dinner, so we don't override the makeDinner method
+}
+
+// Subclass: Adult
+class Adult extends Human {
+    public void eat(){
+        System.out.println("Adult is eating");
+    }
+    public void sleep(){
+        System.out.println("Adult is sleeping");
+    }
+    public void work(){
+        System.out.println("Adult can work");
+    }
+    public void makeDinner(){
+        System.out.println("Adult can make dinner");
+    }
+}
+
+public class Example{
+    public static void main(String[] args) {
+        Human child = new Child();
+        Human adult = new Adult();
+
+        // Child violet LSP
+        child.eat(); // Child is eating
+        child.sleep(); // Child is sleeping
+        child.work(); // Human can work
+        child.makeDinner(); // Human can make dinner
+
+
+        // Only adult not violet LSP
+        adult.eat(); // Adult is eating
+        adult.sleep(); // Adult is sleeping
+        adult.work(); // Adult can work
+        adult.makeDinner(); // Adult can make dinner
+    }
+}
 ```
 
-#### Why Violet LSP?
+### Not Violet LSP
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dq3pru6ji/image/upload/v1711684350/LSP_3.2_dmrrp0.png" alt="Liskov Substitution Principle" style="border: 10px solid #b2f2bb; border-radius: 4px;">
+</p>
 
 ```java
-// Not Violet LSP
-```
+// Supar Class: Human
+class Human{
+    // Consumer Method
+    public void consumerFun(Human human){
+        human.eat();
+        human.sleep();
+    }
+    public void eat(){
+        System.out.println("Human is eating");
+    }
+    public void sleep(){
+        System.out.println("Human is sleeping");
+    }
+}
 
-#### Why Not Violet LSP?
+// Interface: IDoWork
+interface IDoWork{
+    void work();
+}
+
+// Interface: IMakeDinner
+interface IMakeDinner{
+    void makeDinner();
+}
+
+
+// Subclass: Child
+class Child extends Human {
+    public void eat(){
+        System.out.println("Child is eating");
+    }
+    public void sleep(){
+        System.out.println("Child is sleeping");
+    }
+}
+
+// Subclass: Adult
+class Adult extends Human implements IDoWork, IMakeDinner {
+    public void eat(){
+        System.out.println("Adult is eating");
+    }
+    public void sleep(){
+        System.out.println("Adult is sleeping");
+    }
+    public void work(){
+        System.out.println("Adult can work");
+    }
+    public void makeDinner(){
+        System.out.println("Adult can make dinner");
+    }
+}
+
+public class Example{
+    public static void main(String[] args) {
+        Human human = new Human();
+        Human child = new Child();
+        Human adult = new Adult();
+
+        // Meaning Of Substitution: Any derived class should be able to substitute its parent class without the consumer knowing it
+        human.consumerFun(human);
+        human.consumerFun(child);
+        human.consumerFun(adult);
+    }
+}
+
+/*
+Expected Output:
+Human is sleeping
+Child is eating
+Child is sleeping
+Adult is eating
+Adult is sleeping
+*/
+```

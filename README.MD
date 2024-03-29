@@ -74,7 +74,7 @@ This section covers topics related to Object-Oriented Analysis and Design in Jav
 
 ## I will provide Articles very soon
 
-# Mastering Design Principles - SOLID (Module-I & II)
+# Object Oriented Design Principles - SOLID (Module-I & II)
 
 1. What is SOLID Principles?
 2. Single Responsibility Principle (SRP)

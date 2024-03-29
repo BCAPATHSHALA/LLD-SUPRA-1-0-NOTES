@@ -1,4 +1,4 @@
-# Mastering Design Principles - SOLID
+# Mastering Object Oriented Design Principles - SOLID
 
 ```java
 // pending image
