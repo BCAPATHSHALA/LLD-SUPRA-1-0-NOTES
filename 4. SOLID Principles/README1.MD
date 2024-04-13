@@ -13,7 +13,7 @@
 ### A good coder produces quality code that possesses the following characteristics:
 
 1. **`Readable:`** Code is easy to understand and maintain.
-2. **`Remable Code:`** Comments are used judiciously to explain complex logic or algorithms.
+2. **`Rememberable Code:`** Comments are used judiciously to explain complex logic or algorithms.
 3. **`Extensible:`** Code can be easily extended without major modifications.
 4. **`Flexible:`** Code is adaptable to changes in requirements or environment.
 5. **`Stable:`** Exception handling is implemented effectively to ensure stability.
@@ -45,7 +45,7 @@ The SOLID principles are a set of five fundamental design principles that were i
 
 2. To make it easier to quickly extend the system with new functionality without breaking the existing ones.
 
-3. To make the code easier to read and undersatnd, thus spend less time figuring out what it does and more time actually developing the solution. (Time Saving)
+3. To make the code easier to read and understand, thus spend less time figuring out what it does and more time actually developing the solution. (Time Saving)
 
 ### The SOLID principles are:
 
