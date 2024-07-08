@@ -38,7 +38,7 @@ This section covers fundamental concepts and features of Java programming langua
 | 16. | Strings in Java                | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/16.%20Strings%20in%20Java)                                                                                                                                                     |
 | 17. | Exception handling in Java     | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/17.%20Exception%20handling%20in%20Java)                                                                                                                                        |
 | 18. | Wrapper classes in Java        | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/18.%20Wrapper%20classes%20in%20Java)                                                                                                                                           |
-| 19. | Collections Framework in Java  | [Link](#)                                                                                                                                                                                                                                                                   |
+| 19. | Collections Framework in Java  | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/2.%20OOPS%20IN%20JAVA/7.%20Collection%20Framework%20in%20Java)                                                                                                                                         |
 
 # Object Oriented Programming in Java
 
@@ -72,12 +72,11 @@ This section covers topics related to Object-Oriented Analysis and Design in Jav
 
 # Object Oriented Design Principles - SOLID (Module-I & II)
 
-| Topic                                    | PDF NOTES | Read Articles                                                                                            |
-| ---------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------- |
+| Topic                                    | PDF NOTES                                                                                  | Read Articles                                                                                            |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | 1. What is SOLID Principles?             | [Link](https://drive.google.com/file/d/1zxHZ6XBH2ey91wvCwQpw9ZBoqK3hZ0p5/view?usp=sharing) | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/4.%20SOLID%20Principles/README1.MD) |
 | 2. Single Responsibility Principle (SRP) | [Link](https://drive.google.com/file/d/16wvl80hb4cSodbh9LzwW3IamjfJu4vl9/view?usp=sharing) | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/4.%20SOLID%20Principles/README2.MD) |
 | 3. Open-Closed Principle (OCP)           | [Link](https://drive.google.com/file/d/1wI7-0sn7m1lgnn4PKcNA1RgG8bktnFt5/view?usp=sharing) | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/4.%20SOLID%20Principles/README3.MD) |
 | 4. Liskov Substitution Principle (LSP)   | [Link](https://drive.google.com/file/d/110ujN-N7tu9GNDO3h8horaQY5Xsblu49/view?usp=sharing) | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/4.%20SOLID%20Principles/README4.MD) |
 | 5. Interface Segregation Principle (ISP) | [Link](https://drive.google.com/file/d/1gtF6jpQLMqiWx81r7xhnnMT81gygIB9q/view?usp=sharing) | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/4.%20SOLID%20Principles/README5.MD) |
 | 6. Dependency Inversion Principle (DIP)  | [Link](https://drive.google.com/file/d/1NavGN8RTQ1prJRWw7RwdxwF_5fDE3ByD/view?usp=sharing) | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/blob/main/4.%20SOLID%20Principles/README6.MD) |
-
