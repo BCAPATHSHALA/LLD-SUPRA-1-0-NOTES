@@ -1,4 +1,4 @@
-![CONSOLEBUSTERS](https://res.cloudinary.com/dkbtmzdtt/image/upload/v1708107396/MYYYYYY/LLD_SUPRA_1.0_dowsdm.png)
+![10xTech Infinity]()
 
 # Course mentors are Love Babbar & Lakshay Kumar Bhaiya
 
@@ -10,9 +10,9 @@ Our instructors of `LLD SUPRA 1.0` course are [Love Babbar](https://www.linkedin
 
 In this repository, you will get each and every class's notes `except basics of java` in the form of `PDF` with `good explanation`.
 
-You can also join our `Discord Channel` [Console Busters](https://discord.gg/naQUPVWvSs) to get the notes and help to each others by sharing our knowledge.
+You can also join our `Discord Channel` [10xTech Infinity](https://discord.gg/naQUPVWvSs) to get the notes and help to each others by sharing our knowledge.
 
-Please support on `Youtube Channel` [Console Busters](https://www.youtube.com/@ConsoleBusters) via subscribe to watch our doubts and much more.
+Please support on `Youtube Channel` [10xTech Infinity](https://www.youtube.com/@10xtechinfinity) and [BCA Pathshala](https://www.youtube.com/@bcapathshala) via subscribe to watch our doubts and much more.
 
 # Basics of Java
 
@@ -38,8 +38,6 @@ This section covers fundamental concepts and features of Java programming langua
 | 16. | Strings in Java                | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/16.%20Strings%20in%20Java)                                                                                                                                                     |
 | 17. | Exception handling in Java     | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/17.%20Exception%20handling%20in%20Java)                                                                                                                                        |
 | 18. | Wrapper classes in Java        | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/1.%20BASICS%20OF%20JAVA/18.%20Wrapper%20classes%20in%20Java)                                                                                                                                           |
-| 19. | Collections Framework in Java  | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/2.%20OOPS%20IN%20JAVA/7.%20Collection%20Framework%20in%20Java)                                                                                                                                         |
-
 # Object Oriented Programming in Java
 
 This section covers Object Oriented Programming concepts in Java.
@@ -52,6 +50,7 @@ This section covers Object Oriented Programming concepts in Java.
 | 4.  | **Inheritance in Java**                      | <details><summary>Show Subtopics</summary><ul><li>- 📝 What is inheritance?</li><li>- 📝 When do we use inheritance?</li><li>- 📝 General `IS-A` example</li><li>- 📝 Advantages of inheritance</li><li>- 📝 Implementation of inheritance</li><li>- 📝 Access modifiers (`In Detailed`) in Java</li><li>- 📝 Type of inheritance</li><li>- 📝 `super` keyword in Java</li><li>- 📝 `super` VS `this` keyword in Java</li><li>- 📝 Structure design program using inheritance</li></ul></details>                                                                                | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/2.%20OOPS%20IN%20JAVA/4.%20Inheritance%20in%20Java)                              |
 | 5.  | **Polymorphism in Java**                     | <details><summary>Show Subtopics</summary><ul><li>- 📝 What is polymorphism?</li><li>- 📝 Types of polymorphism</li><li>- 📝 Static polymorphism</li><li>- 📝 Dynamic polymorphism</li><li>- 📝 Downcasting in Java</li><li>- 📝 Important notes</li><li>- 📝 Method overloading Vs method overriding</li></ul></details>                                                                                                                                                                                                                                                        | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/2.%20OOPS%20IN%20JAVA/5.%20Polymorphism%20in%20java)                             |
 | 6.  | **Abstraction in Java**                      | <details><summary>Show Subtopics</summary><ul><li>- 📝 What is abstraction?</li><li>- 📝 Abstraction in java collections</li><li>- 📝 Ways to achieve abstraction</li><li>- 📝 Abstraction using classes</li><li>- 📝 Abstraction using abstract class</li><li>- 📝 Abstraction using interface (new way to design strategy)</li><li>- 📝 Upcasting in abstraction</li><li>- 📝 Real world examples of abstraction</li><li>- 📝 Abstract class Vs interface</li><li>- 📝 Advantages of abstraction</li><li>- 📝 Achieve multiple inheritance using interface</li></ul></details> | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/2.%20OOPS%20IN%20JAVA/6.%20Abstraction%20in%20Java)                              |
+| 7.  | **List Interface - Collections Framework in Java**            | <details><summary>Show Subtopics</summary><ul><li>- 📝 ArrayList Class in List Interface</li><li>- 📝 LinkedList Class in List Interface</li><li>- 📝 Vector Class in List Interface</li><li>- 📝 Stack Class in List Interface</li></ul></details> | [Link](https://github.com/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES/tree/main/2.%20OOPS%20IN%20JAVA/7.%20Collection%20Framework%20in%20Java) |                                                                                                                                   |
 
 # Object-Oriented Analysis And Design Module I & II
 
