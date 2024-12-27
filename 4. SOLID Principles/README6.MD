@@ -286,3 +286,95 @@ public class Example {
     }
 }
 ```
+
+## 📝 Practical Coding Examples in Java #3
+
+<p align="center">
+  <img src="./images/DIP-EXAMPLE-02.png" alt="Interface Segregation Principle" style="border: 10px solid #b2f2bb; border-radius: 4px;">
+</p>
+
+```java
+package calculatorDIP;
+
+// ICalculator Interface: Abstraction Layer for Both High and Low Level Module
+interface ICalculator{
+    void operate(int a, int b);
+}
+
+// Calculator Class: High Level Module
+public class Calculator {
+    private ICalculator caloperator;
+
+    public Calculator(ICalculator caloperator){
+        this.caloperator = caloperator;
+    }
+
+    public void process(int a, int b){
+        caloperator.operate(a, b);
+    }
+}
+```
+
+```java
+package calculatorDIP;
+
+// Addition Class: Low Level Module
+public class Addition implements ICalculator {
+    @Override
+    public void operate(int a, int b){
+        System.out.println("SUM: "+ (a+b));
+    }
+}
+```
+
+```java
+package calculatorDIP;
+
+// Subtraction Class: Low Level Module
+public class Subtraction implements ICalculator {
+    @Override
+    public void operate(int a, int b){
+        System.out.println("SUB: "+ (a-b));
+    }
+}
+```
+
+```java
+package calculatorDIP;
+
+// Multiplication Class: Low Level Module
+public class Multiplication implements ICalculator {
+    @Override
+    public void operate(int a, int b){
+        System.out.println("MUL: "+ (a*b));
+    }
+}
+```
+
+```java
+package calculatorDIP;
+
+public class CalMain {
+    public static void main(String[] args){
+        ICalculator addition = new Addition();
+        ICalculator subtraction = new Subtraction();
+        ICalculator multiplication = new Multiplication();
+
+        Calculator operate1 = new Calculator(addition);
+        Calculator operate2 = new Calculator(subtraction);
+        Calculator operate3 = new Calculator(multiplication);
+
+        operate1.process(10, 5);
+        operate2.process(20, 10);
+        operate3.process(30, 10);
+    }
+}
+```
+
+## 📝 Practical Coding Examples in Java #4
+
+<p align="center">
+  <img src="./images/DIP-EXAMPLE-01.png" alt="Interface Segregation Principle" style="border: 10px solid #b2f2bb; border-radius: 4px;">
+</p>
+
+Try to code the example 4 using the abobe diagram.
