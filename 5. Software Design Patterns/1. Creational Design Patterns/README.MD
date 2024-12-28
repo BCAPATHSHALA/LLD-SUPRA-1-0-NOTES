@@ -10,8 +10,8 @@ Creational patterns give a lot of flexibility in **what** gets created, **who** 
 
 ## There are two main themes in these patters:
 
-• They keep information about the specific classes used in the system hidden.
-• They hide the details of how instances of these classes are created and assembled.
+- They keep information about the specific classes used in the system hidden.
+- They hide the details of how instances of these classes are created and assembled.
 
 ## Types of Creational Design Patterns?
 
