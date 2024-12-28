@@ -18,10 +18,10 @@ The **Factory Design Pattern** is a way to create objects without specifying the
 ## 2. Where and Why Do We Use It?
 
 - **Where:**
-  ○ When you need to create objects but don’t want to hard-code the exact class names in your code.
+  - When you need to create objects but don’t want to hard-code the exact class names in your code.
 - **Why:**
-  ○ It makes your code flexible and easy to maintain.
-  ○ You can add new types of objects without changing existing code.
+  - It makes your code flexible and easy to maintain.
+  - You can add new types of objects without changing existing code.
 
 **Example:** A mobile phone company making phones of different models (e.g., Android, iPhone) using the same manufacturing process.
 
