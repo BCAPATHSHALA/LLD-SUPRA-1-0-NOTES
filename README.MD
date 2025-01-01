@@ -88,7 +88,7 @@ This section covers topics related to Object-Oriented Analysis and Design in Jav
 
 # Creational Design Parterns - Software Design Patterns
 
-| Topic                              | PDF NOTES                                                                                                                            | Read Articles |
+| Topic                              | ARTICLE NOTES                                                                                                                            | PDF Articles |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
 | 1. Factory Design Pattern          | [Link](./5.%20Software%20Design%20Patterns/1.%20Creational%20Design%20Patterns/1.%20Factory%20Design%20Pattern/README.MD)            |
 | 2. Abstract Factory Design Pattern | [Link](./5.%20Software%20Design%20Patterns/1.%20Creational%20Design%20Patterns/2.%20Abstract%20Factory%20Design%20Pattern/README.MD) |
