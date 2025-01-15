@@ -92,8 +92,6 @@ public class WithoutProxyExample {
 
 **Problem:** Every request goes directly to the database, making it difficult to control access or add functionality like logging, caching, or security.
 
-**Problem:** We cannot play video files without modifying the AudioPlayer class, which violates the Open/Closed Principle.
-
 ## 7. Code With Pattern
 
 Using the Proxy Design Pattern, we can create a proxy class to control access to the database.
