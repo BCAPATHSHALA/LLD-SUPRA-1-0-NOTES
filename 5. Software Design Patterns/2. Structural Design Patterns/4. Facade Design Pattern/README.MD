@@ -1,4 +1,4 @@
-# 4 Facde Design Pattern
+# 4. Facde Design Pattern
 
 1. What is It?
 2. Where and Why do We Use It?
