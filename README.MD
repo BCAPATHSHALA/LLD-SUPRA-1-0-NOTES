@@ -1,4 +1,4 @@
-![10xTech Infinity]()
+![10xTech Infinity](./LLD-BOOK-COVER.png)
 
 # Course mentors are Love Babbar & Lakshay Kumar Bhaiya
 
