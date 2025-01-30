@@ -90,16 +90,19 @@ This section covers topics related to Object-Oriented Analysis and Design in Jav
 
 | Topic                              | ARTICLE NOTES                                                                                                                            | PDF Articles |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
+| What are Creational Design Patterns  | [Link](./5.%20Software%20Design%20Patterns/1.%20Creational%20Design%20Patterns/README.MD)          |
 | 1. Factory Design Pattern          | [Link](./5.%20Software%20Design%20Patterns/1.%20Creational%20Design%20Patterns/1.%20Factory%20Design%20Pattern/README.MD)            |
 | 2. Abstract Factory Design Pattern | [Link](./5.%20Software%20Design%20Patterns/1.%20Creational%20Design%20Patterns/2.%20Abstract%20Factory%20Design%20Pattern/README.MD) |
 | 3. Builder Design Pattern          | [Link](./5.%20Software%20Design%20Patterns/1.%20Creational%20Design%20Patterns/3.%20Builder%20Design%20Pattern/README.MD)            |
 | 4. Singleton Design Pattern        | [Link](5.%20Software%20Design%20Patterns/1.%20Creational%20Design%20Patterns/4.%20Singleton%20Design%20Pattern/README.MD)            |
 | 5. Prototype Design Pattern        | [Link](./5.%20Software%20Design%20Patterns/1.%20Creational%20Design%20Patterns/5.%20Prototype%20Design%20Pattern/README.MD)          |
 
+
 # Structural Design Parterns - Software Design Patterns
 
 | Topic                             | ARTICLE NOTES                                                                                                                | PDF Articles |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| What are Structural Design Patterns  | [Link](./5.%20Software%20Design%20Patterns/2.%20Structural%20Design%20Patterns/README.MD)          |
 | 1. Decorator Design Pattern       | [Link](./5.%20Software%20Design%20Patterns//2.%20Structural%20Design%20Patterns/1.%20Decorator%20Design%20Pattern/README.MD) |
 | 2. Adapter Factory Design Pattern | [Link](./5.%20Software%20Design%20Patterns/2.%20Structural%20Design%20Patterns/2.%20Adapter%20Design%20Pattern/README.MD)    |
 | 3. Proxy Design Pattern           | [Link](./5.%20Software%20Design%20Patterns/2.%20Structural%20Design%20Patterns/3.%20Proxy%20Design%20Pattern/README.MD)      |
