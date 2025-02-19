@@ -356,7 +356,7 @@ Playing: Video 3
 */
 ```
 
-## 8. Use Cases of Command Pattern
+## 8. Use Cases of Iterator Pattern
 
 - **Database Cursors:** Iterate over database records.
 - **File Handling:** Reading lines from a file one by one.
