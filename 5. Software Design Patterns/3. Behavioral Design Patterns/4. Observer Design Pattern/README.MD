@@ -206,7 +206,7 @@ Benefits of Using Observer Pattern:
 - **Automatic updates:** When temperature changes, all displays update automatically.
 - **Scalability:** Easily add or remove displays without modifying WeatherStation.
 
-## 8. Use Cases of Command Pattern
+## 8. Use Cases of Observer Pattern
 
 - **YouTube Subscriptions** – Get notified when a new video is uploaded.
 - **Stock Market Apps** – Users receive real-time stock price updates.
