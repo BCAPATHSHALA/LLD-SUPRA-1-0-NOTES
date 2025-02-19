@@ -180,7 +180,7 @@ Benefits of Using Mediator Pattern:
 - **Scalability:** Adding more users doesn’t complicate the system.
 - **Centralized communication:** Chat room manages all messages.
 
-## 8. Use Cases of Command Pattern
+## 8. Use Cases of Mediator Pattern
 
 - **Chat applications** (WhatsApp, Facebook Messenger).
 - **Air traffic control systems** (Ensuring safe communication between pilots).
