@@ -122,3 +122,17 @@ This section covers topics related to Object-Oriented Analysis and Design in Jav
 | 4. Observer Design Pattern                | [Link](./5.%20Software%20Design%20Patterns/3.%20Behavioral%20Design%20Patterns/4.%20Observer%20Design%20Pattern/README.MD)                    |
 | 5. Iterator Design Pattern                | [Link](./5.%20Software%20Design%20Patterns/3.%20Behavioral%20Design%20Patterns/5.%20Iterator%20Design%20Pattern/README.MD)                    |
 | 6. Visitor Design Pattern                 | [Link](./5.%20Software%20Design%20Patterns/3.%20Behavioral%20Design%20Patterns/6.%20Visitor%20Design%20Pattern/README.MD)                     |
+
+# 📚 Books for Better Engineering
+
+## [Clean Code: A Handbook of Agile Software Craftsmanship](https://amzn.to/4baWX1m)
+
+![Clean Code: A Handbook of Agile Software Craftsmanship](./BOOK1.jpg)
+
+## [Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software, Second Edition (Grayscale Indian Edition)](https://amzn.to/4gNwd8i)
+
+![Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software, Second Edition (Grayscale Indian Edition)](./BOOK2.webp)
+
+## [Refactoring: Improving the Design of Existing Code](https://amzn.to/3EKMb5I)
+
+![Refactoring: Improving the Design of Existing Code](./BOOK3.jpg)
