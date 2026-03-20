@@ -1,20 +1,50 @@
-![10xTech Infinity](./LLD-BOOK-COVER.png)
+﻿![10xTech Infinity](./LLD-BOOK-COVER.png)
 
-### [💟Support Us](https://razorpay.me/@websyro)
+# Grab Your LLD Notes
 
-# Course mentors are Love Babbar & Lakshay Kumar Bhaiya
+![Stars](https://img.shields.io/github/stars/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES?style=for-the-badge&label=STARS&color=2f81f7)
+![Forks](https://img.shields.io/github/forks/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES?style=for-the-badge&label=FORKS&color=238636)
+![Issues](https://img.shields.io/github/issues/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES?style=for-the-badge&label=ISSUES&color=d29922)
+![Last Commit](https://img.shields.io/github/last-commit/BCAPATHSHALA/LLD-SUPRA-1-0-NOTES?style=for-the-badge&label=LAST%20COMMIT&color=1f6feb)
+![Updated Today](https://img.shields.io/badge/TODAY-updated-3fb950?style=for-the-badge)
+[![Buy Me A Coffee](https://img.shields.io/badge/BUY%20ME%20A%20COFFEE-support-ff813f?style=for-the-badge)](https://buymeacoffee.com/manojofficialmj)
+[![Support](https://img.shields.io/badge/SUPPORT-BUY%20ME%20A%20COFFEE-ff6b6b?style=for-the-badge)](https://buymeacoffee.com/manojofficialmj)
 
-Low Level Design `LLD SUPRA 1.0` course represented by [The code help](https://www.thecodehelp.in)
+## Start Learning Now
 
-Our instructors of `LLD SUPRA 1.0` course are [Love Babbar](https://www.linkedin.com/in/love-babbar-38ab2887/) & [Lakshay Kumar](https://www.linkedin.com/in/lakshayk12/)
+[![Download](https://img.shields.io/badge/DOWNLOAD-NOTES-444444?style=for-the-badge)](./LLD-BOOK-COVER.png)
+[![LLD Notes](https://img.shields.io/badge/LLD-NOTES-00c853?style=for-the-badge)](#lld-supra-10-pdf-notes-in-java)
+
+## Hi, I'm Manoj Kumar
+
+Full Stack and Generative AI Developer building SaaS products, AI tools, and scalable web apps.
+
+## Connect with Me
+
+- LinkedIn: [linkedin.com/in/manojofficialmj](https://www.linkedin.com/in/manojofficialmj)
+- X (Twitter): [x.com/manojofficialmj](https://x.com/manojofficialmj)
+
+## Support My Work
+
+I'm working hard to provide free, high-quality Java, OOP, and Low-Level Design notes, code, and resources for everyone.
+
+If this repository helped you in any way, you can support my work:
+
+### [Buy Me a Coffee](https://buymeacoffee.com/manojofficialmj)
+
+Your support will help me:
+
+- Create more structured content
+- Improve explanations and examples
+- Keep everything free for the community
+
+Every coffee fuels more content.
+
+Thank you for being part of this journey.
 
 ## LLD SUPRA 1.0 PDF NOTES IN JAVA
 
 In this repository, you will get each and every class's notes `except basics of java` in the form of `PDF` with `good explanation`.
-
-You can also join our `Discord Channel` [10xTech Infinity](https://discord.gg/naQUPVWvSs) to get the notes and help to each others by sharing our knowledge.
-
-Please support on `Youtube Channel` [10xTech Infinity](https://www.youtube.com/@10xtechinfinity) and [BCA Pathshala](https://www.youtube.com/@bcapathshala) via subscribe to watch our doubts and much more.
 
 # Basics of Java
 
@@ -124,17 +154,14 @@ This section covers topics related to Object-Oriented Analysis and Design in Jav
 | 4. Observer Design Pattern                | [Link](./5.%20Software%20Design%20Patterns/3.%20Behavioral%20Design%20Patterns/4.%20Observer%20Design%20Pattern/README.MD)                    |
 | 5. Iterator Design Pattern                | [Link](./5.%20Software%20Design%20Patterns/3.%20Behavioral%20Design%20Patterns/5.%20Iterator%20Design%20Pattern/README.MD)                    |
 | 6. Visitor Design Pattern                 | [Link](./5.%20Software%20Design%20Patterns/3.%20Behavioral%20Design%20Patterns/6.%20Visitor%20Design%20Pattern/README.MD)                     |
+---
 
-# 📚 Books for Better Engineering
+## Ready to Level Up in LLD?
 
-## [Clean Code: A Handbook of Agile Software Craftsmanship](https://amzn.to/4baWX1m)
+If these notes helped you, please support the project:
 
-![Clean Code: A Handbook of Agile Software Craftsmanship](./BOOK1.jpg)
+- Star this repository
+- Share it with your friends
+- Support my work: https://buymeacoffee.com/manojofficialmj
 
-## [Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software, Second Edition (Grayscale Indian Edition)](https://amzn.to/4gNwd8i)
-
-![Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software, Second Edition (Grayscale Indian Edition)](./BOOK2.webp)
-
-## [Refactoring: Improving the Design of Existing Code](https://amzn.to/3EKMb5I)
-
-![Refactoring: Improving the Design of Existing Code](./BOOK3.jpg)
+Your support helps me keep creating free, high-quality content for the community.
